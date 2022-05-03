@@ -1,0 +1,61 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #666;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section{
+	min-height: 600px;
+}
+
+.portfolio{
+	background-color: #eee;
+}
+
+.contact {
+	min-height: 800px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+/**membuat galery**/
+
+.thumbnail img {
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.thumbnail img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
